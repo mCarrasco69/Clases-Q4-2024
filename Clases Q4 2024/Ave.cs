@@ -13,5 +13,14 @@ namespace Clases_Q4_2024
         public double Tamano { get; set; }
         public string Habitat { get; set; }
    
+        public void Imprimir()
+        {
+            Console.WriteLine($"Nombre {Nombre}");
+            Console.WriteLine($"Especie {Especie}");
+            Console.WriteLine($"Color {Color}");
+            Console.WriteLine($"Tamano {Tamano}");
+            Console.WriteLine($"Habitat {Habitat}");
+            Console.WriteLine();
+        }
     }
 }
